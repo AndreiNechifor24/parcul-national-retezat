@@ -18,7 +18,7 @@ img :active{
     background: url("../media/nav-menu/nav-menu-bg.jpg") center;
     float: left;
     height: 100%;
-    position: absolute;
+    position: relative;
     width: 35%;
 }
 #nav-menu-container{
@@ -28,6 +28,8 @@ img :active{
     height: 100%;
     transition: transform .5s;
     width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 #nav-menu-container:hover{
     backdrop-filter: blur(3px);
