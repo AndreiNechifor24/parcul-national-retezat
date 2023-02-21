@@ -38,10 +38,11 @@ img :active{
     color: white;
     text-align: center;
 }
-#nav-menu-footer p{
+#nav-menu-footer, #body-footer p{
     font-family: "Cascadia Code";
     font-size: medium;
     font-style: italic;
+    text-align: center;
 }
 
 .nav-item{
@@ -101,6 +102,10 @@ body{
     height: 100%;
     overflow: hidden;
     width: 100%;
+}
+
+#body-footer{
+    display: none;
 }
 
 .breadcrumb-arrow{
