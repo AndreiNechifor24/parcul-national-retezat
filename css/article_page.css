@@ -6,22 +6,7 @@
     position: relative;
     width: 100%;
 }
-.body-container
-{
-    display: inline-block;
-    height: 100%;
-    overflow: hidden;
-    width: 100%;
-}
-.page-content-container
-{
-    background: rgba(226, 220, 220, 0.6);
-    border-radius: 10px;
-    font-family: 'Kalam', cursive;
-    height: 98vh;
-    overflow-x: scroll;
-    width: 60vw;
-}
+
 .page-content-container article
 {
     margin: .5rem;
