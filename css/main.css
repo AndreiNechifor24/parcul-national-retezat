@@ -78,10 +78,28 @@ img :active{
     width: 65%;
 }
 
+.page-content-container
+{
+    background: rgba(226, 220, 220, 0.6);
+    border-radius: 10px;
+    font-family: 'Kalam', cursive;
+    height: 98vh;
+    overflow-x: scroll;
+    width: 60vw;
+}
+
 body{
     height: 100vh;
     margin: 0;
     overflow: hidden;
+}
+
+.body-container
+{
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
 }
 
 .breadcrumb-arrow{

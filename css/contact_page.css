@@ -1,0 +1,72 @@
+#contact-card
+{
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgb(247, 123, 14);
+    height: 25vh;
+    width: 70%;
+}
+#contact-card-avatar
+{
+    align-items: center;
+    background: #ff6b5f;
+    border-bottom-left-radius: 20px;
+    border-right: dashed black 2px;
+    border-top-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    width: 35%;
+}
+#contact-card-avatar img
+{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+#contact-card-box
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+#contact-card-container
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+#contact-card-content
+{
+    align-items: center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    height: 100%;
+    justify-content: center;
+    width: 60%;
+}
+#contact-card-fields
+{
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+#contact-card-fields li
+{
+    font-weight: 800;
+}
+.page-content-container
+{
+    overflow: hidden;
+}
