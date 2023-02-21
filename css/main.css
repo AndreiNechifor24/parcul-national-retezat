@@ -1,8 +1,7 @@
 #nav-items{
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    margin-left: 15%;
+
 }
 #nav-logo{
     margin-top: 1rem;
