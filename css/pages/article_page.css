@@ -5,7 +5,9 @@
     height: 5%;
     position: relative;
     width: 100%;
+    object-fit: cover;
 }
+
 .page-content-container article
 {
     margin: .5rem;
