@@ -1,0 +1,37 @@
+article
+{
+    overflow-wrap: break-word;
+}
+#body-footer
+{
+    display: initial;
+}
+article
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.section-list-right
+{
+    float: none;
+}
+.section-list-left
+{
+    float: none;
+}
+.section-image-container-right
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: none;
+}
+.section-image-container-left
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: none;
+}
