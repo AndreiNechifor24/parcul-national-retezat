@@ -1,0 +1,13 @@
+#intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro-quote{
+}
+
+#piechart{
+    width:98%;
+    margin-top:3%;
+}
