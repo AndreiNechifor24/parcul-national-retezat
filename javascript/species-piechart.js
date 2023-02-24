@@ -12,7 +12,6 @@ function drawChart(){
     ]);
 
     var options = {
-        'title':'Distributia peisajelor in Parcul National Retezat',
         backgroundColor:
             {
                 fill: 'transparent'
@@ -20,12 +19,11 @@ function drawChart(){
         legend:{
             position: 'right',
             alignment: 'center',
-            maxLines: 6
+            maxLines: 5
 
         },
         chartArea:{
-            height: "100%",
-            width: "100%"
+            top:50,bottom:30,right:0,left:0, 'width': '100%'
         }
     };
 
